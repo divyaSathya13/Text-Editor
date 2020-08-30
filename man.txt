@@ -1,0 +1,52 @@
+DSproject.h
+C
+
+DSprojectMain.c
+C
+
+DSprojectUtils.c
+C
+
+makefile.mk
+Binary File
+
+man.txt
+Text
+
+DS Presentation.pptx
+PowerPoint
+1 private comment
+
+Divya SathyaNov 19, 2019
+Text Editor using Doubly Linked Lists by Divya S (SRN 272) and Sai Shruthi (SRN 361)
+
+
+Manual Page for Text Editor:
+
+- File to be opened, if existing, must be in same folder as Program files.
+
+Case 1:
+	Number of input tokens : 1
+	a 			: Append 
+	s 			: Save
+	p 			: Print
+	i 			: Insert at beginning of file
+	cls			: Clear screen
+	q 			: Quit
+	man			: Manual Page
+
+Case 2:
+	Number of input tokens : 2
+	d n 		: delete the nth line
+	i n 		: insert after the nth line
+	p n 		: print the nth line
+	f s 		: find and print all lines containing string s
+Case 3:
+
+	Number of input tokens : 3
+    d  n  m 	: delete lines from n to m
+	c  n  m 	: copy nth line to mth position
+	m  n  m 	: move nth line to mth position
+	r s1  s2    : replace all occurances of string s1 with string s2
+
+	
